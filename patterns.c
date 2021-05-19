@@ -4,7 +4,7 @@ int main(void)
 {
  int choice,n,i,j,k;
  choice=get_int("Enter type of pattern (1 or 2) ");
- n=get_int("Number of rows ");
+ n=get_int("Number of rows");
  switch(choice)
  {
   case 1:for(i=1;i<=n;i++)
